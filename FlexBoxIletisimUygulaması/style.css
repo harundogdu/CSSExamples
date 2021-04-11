@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(to bottom, #FF4B2B, #FF416C);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.contact-page {
+    width: 100%;
+    max-width: 1400px;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    width: 100%;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+}
+
+.item {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #322;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    border-radius: 50%;
+    margin-right: 16px;
+    transition: .3s linear;
+}
+
+.icon:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.textb {
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    background-color: #222;
+    font-size: 17px;
+    border: none;
+    color: #ff4747;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 250px;
+    max-height: 400px;
+    padding: 12px;
+    background-color: #222;
+    font-size: 20px;
+    resize: none;
+    border: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    margin-left: auto;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: .3s linear;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.textb:focus,
+textarea:focus {
+    outline: none;
+}
+
+@media screen and (max-width:980px) {
+    .contact-page {
+        max-width: 800px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contact-info,
+    .contact-form {
+        flex: 100%;
+    }
+
+    .textb {
+        width: 100%;
+    }
+}

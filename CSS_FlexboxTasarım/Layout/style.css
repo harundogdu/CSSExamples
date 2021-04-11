@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+/* header */
+header {
+    background-color: goldenrod;
+    padding: 2.5rem 2.0rem;
+    text-align: center;
+    color: #fff;
+}
+
+header h3 {
+    font-size: 3.8rem;
+    padding: 1.5rem;
+}
+
+header p {
+    font-size: 1.8rem;
+}
+
+/* nav */
+nav .flex-ul {
+    display: flex;
+    padding: 1.5rem 2.5rem;
+    background-color: #444;
+    list-style: none;
+}
+
+.flex-ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5rem 2rem;
+    font-size: 1.8rem;
+}
+
+
+.flex-ul li a:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+/*section a*/
+#section-a {
+    padding: 1rem 4.5rem;
+    background-color: #8c0;
+
+}
+
+#section-a .a-img {
+    background-color: #bbb;
+    width: 95%;
+    height: 15rem;
+    padding: 1.5rem;
+}
+
+#section-a h2 {
+    font-size: 2.8rem;
+    padding: 1.5rem 0;
+}
+
+#section-a p {
+    font-size: 1.7rem;
+    padding: 1.5rem 0;
+    width: 90%;
+}
+
+/*section b*/
+#section-b {
+    padding: 1rem 4.5rem;
+}
+
+#section-b .b-img {
+    width: 95%;
+    background-color: #bbb;
+    height: 15rem;
+    padding: 1.5rem;
+}
+
+#section-b h2 {
+    font-size: 2.8rem;
+    padding: 1.5rem 0;
+}
+
+#section-b p {
+    font-size: 1.7rem;
+    padding: 1.5rem 0;
+    width: 90%;
+
+}
+/*footer*/
+footer {
+    color: #fff;
+    padding: 3rem;
+    background-color: #000;
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+/* container */
+.container-inner {
+    display: flex;
+    padding: 1rem 2.0rem;
+    }
+/* media query*/
+
+@media screen and (max-width:800px){
+    html{
+        font-size: 8px;
+    }
+    .container-inner{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

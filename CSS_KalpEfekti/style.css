@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contianer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.kalp {
+    position: relative;
+    transition: 300ms all;
+}
+
+.kalp-sag {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    transition: 300ms all;
+}
+
+.kalp-sol {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    transition: 300ms all;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.kalp:hover .kalp-sag {
+    transform: rotate(-45deg) translate(-50px);
+}
+
+.kalp:hover .kalp-sol {
+    transform: rotate(45deg) translate(50px);
+}

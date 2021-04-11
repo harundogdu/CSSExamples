@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 10px solid rgba(255, 255, 255, .05);
+    border-top: 5px solid crimson;
+    animation: animasyon 400ms infinite linear;
+}
+
+@keyframes animasyon {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
